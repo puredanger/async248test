@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :aliases
+ {:aot {:extra-paths ["classes"]}
+  :pre {:extra-deps {org.clojure/core.async {:mvn/version "1.5.648"}}}
+  :post {:extra-deps {org.clojure/core.async {:local/root "../../code/core.async"}}}
+  }
+ }
+
